@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(39, 80, 128);
+    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+#container{
+    width:510px;
+    height:491px;
+    background-color: rgb(34, 34, 34);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+label{
+    color:white;
+}
+#form{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:90px;
+    left:20px;
+}
+.okienka{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#button{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#log-in{
+    width:180px;
+    position:relative;
+    left:60px;
+    top:30px;
+}
+#logo{
+    width:100px;   
+}
+#blad{
+    color:red;
+}
+#blad_regulamin{
+    color:red;
+    position:absolute;
+    bottom:75px;
+}
+#udana{
+    color: lime;
+}
+#login{
+    text-align: center;
+}
+#e-mail{
+    text-align: center;
+    position:relative;
+    right:5px;
+}
+#haslo{
+    text-align: center;
+    position:relative;
+    right:3px;
+}
+#powtorz_haslo{
+    position:relative;
+    right:20px;
+}
+#regulamin{
+    text-align: center;
+}

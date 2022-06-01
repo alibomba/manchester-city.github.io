@@ -1,0 +1,290 @@
+/* poczatek headera  */ 
+body{
+    background-color: rgb(34, 34, 34);
+    background-size: cover;
+    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+header{
+    position:fixed;
+    top:0px;
+    z-index: 1;
+}
+#header{
+    margin:0px;
+    width:3000px;
+    height:100px;
+    background-color: rgb(39, 80, 128);
+}
+#logo-city{
+    width:80px;
+    margin: 10px 0;
+}
+#nav{
+    font-size:30px;
+    position:relative;
+    top:30px;
+}
+.h-element{
+    float:left;
+    margin-left:100px;
+    margin-right:100px;
+}
+.nav-napis{
+    margin:20px;
+    color:white;
+}
+.nav-napis:hover{
+    text-decoration: underline;
+}
+.nav-napis-hovernt{
+    margin:20px;
+    color:white;
+}
+#login{
+    position:relative;
+    top:33px;
+}
+#login-logo{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+#zaloguj-sie{
+    margin-right:10px;
+    position:relative;
+    bottom:14px;
+    color:white;
+    font-size:21px;
+}
+.rozwijanie-menu{
+    width:30px;
+}
+#dropbtn1{
+    position:absolute;
+    left:611px;
+    top:63px;
+}
+#dropdown-content1{
+    display:none;
+    background-color: rgb(61, 61, 61);
+    width:fit-content;
+    position:absolute;
+    top:90px;
+    left:563px;
+}
+#dropdown1:hover #dropdown-content1{display:block;}
+a{
+    color:white;
+    text-decoration: none;
+}
+.dd-text1{
+    display:block;
+    padding:20px;
+    font-size:25px;
+}
+.dd-text1:hover{
+    text-decoration: underline;
+}
+
+
+#dropbtn2{
+    position:absolute;
+    left:743px;
+    top:63px;
+}
+#dropdown-content2{
+    display:none;
+    background-color: rgb(61, 61, 61);
+    width:fit-content;
+    position:absolute;
+    top:90px;
+    left:669px;
+}
+#dropdown2:hover #dropdown-content2{display:block;}
+.dd-text2{
+    display:block;
+    padding:20px;
+    font-size:25px;
+}
+.dd-text2:hover{
+    text-decoration: underline;
+}
+
+
+#dropbtn3{
+    position:absolute;
+    left:1054px;
+    top:63px;
+}
+#dropdown-content3{
+    display:none;
+    background-color: rgb(61, 61, 61);
+    width:fit-content;
+    position:absolute;
+    top:90px;
+    left:975px;
+}
+#dropdown3:hover #dropdown-content3{display:block;}
+.dd-text3{
+    display:block;
+    padding:20px;
+    font-size:25px;
+}
+.dd-text3:hover{
+    text-decoration: underline;
+}
+/* koniec headera  */ 
+
+#winners{
+    background-image: url('img/winners.png');
+    background-position-y: 90px;
+    height:800px;
+    background-repeat: no-repeat;
+}
+#winner-dtls{
+    position:relative;
+    top:692px;
+    left:540px;
+    background-color: rgb(5, 38, 129);
+    width:fit-content;
+    padding:20px;
+}
+#puchar{
+    width:50px;
+    position:relative;
+    top:5px;
+}
+#mistrzowie{
+    font-size:55px;
+    margin:10px;
+}
+#mistrzowie:hover{
+    text-decoration: underline;
+}
+#pl-month{
+    width:fit-content;
+}
+#pl-month h1{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    margin-bottom:20px;
+}
+#foden{
+    height:350px;
+}
+#pl-season{
+    width:fit-content;
+}
+#pl-season h1{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    margin-bottom:20px;
+}
+#kdb{
+    height:350px;
+}
+.best{
+    float:left;
+}
+#space{
+    display: flex;
+    justify-content: space-around;
+}
+#ostatni-mecz{
+    text-align: center;
+}
+#ostatni-mecz h1{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+#ostatni-mecz h1:hover{
+    text-decoration: underline;
+}
+#skrot{
+    width:700px;
+    height:394px;
+}
+#ad{
+    text-align: center;
+}
+#ad img{
+    width:1500px;
+}
+#charity{
+    text-align: center;
+    height:400px;
+    overflow: hidden;
+}
+#charity img{
+    width:1600px;
+    position:relative;
+    bottom:250px;
+    z-index: 0;
+}
+#learn-more-button{
+   color:black;
+   font-size:50px;
+   z-index: 1;
+   position: relative;
+   bottom:90px;
+   left:650px;
+   border:1px solid black;
+   padding:20px;
+   background-color: #00ffff;
+}
+#learn-more-button:hover{
+    background-color: #00dddd;
+}
+
+
+/* poczatek stopki*/
+#sponsorzy{
+    background-color: black;
+    margin-top:-55px;
+    display:flex;
+    justify-content: space-around;
+}
+.loga-sponsorow{
+    margin:20px 0;
+}
+#stopka{
+    background-color: rgb(39, 80, 128);
+    height:245px;
+}
+#sociale{
+    position:absolute;
+    left:25px;
+    width:250px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+#fb{
+    margin-left:-13px;
+}
+#sociale img{
+    width:50px;
+}
+.ikonka-social{
+    transition: transform 0.25s;
+}
+
+.ikonka-social:hover{
+    transform: scale(1.5);
+}
+#support{
+    position:relative;
+    top:150px;
+}
+#support address{
+    color:white;
+    font-size:20px;
+}
+/* koniec stopki*/

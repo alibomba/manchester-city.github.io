@@ -1,0 +1,211 @@
+/* poczatek headera  */ 
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: 'Koulen', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+}
+#main-header{
+    position:fixed;
+    top:0px;
+    z-index: 1;
+}
+#header{
+    margin:0px;
+    width:3000px;
+    height:100px;
+    background-color: rgb(39, 80, 128);
+}
+#logo-city{
+    width:80px;
+    margin: 10px 0;
+}
+#nav{
+    font-size:30px;
+    position:relative;
+    top:30px;
+}
+.h-element{
+    float:left;
+    margin-left:100px;
+    margin-right:100px;
+}
+.nav-napis{
+    margin:20px;
+    color:white;
+}
+.nav-napis:hover{
+    text-decoration: underline;
+}
+.nav-napis-hovernt{
+    margin:20px;
+    color:white;
+}
+#login{
+    position:relative;
+    top:33px;
+}
+#login-logo{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+#zaloguj-sie{
+    margin-right:10px;
+    position:relative;
+    bottom:14px;
+    color:white;
+    font-size:21px;
+}
+.rozwijanie-menu{
+    width:30px;
+}
+#dropbtn1{
+    position:absolute;
+    left:611px;
+    top:63px;
+}
+#dropdown-content1{
+    display:none;
+    background-color: rgb(61, 61, 61);
+    width:fit-content;
+    position:absolute;
+    top:90px;
+    left:563px;
+}
+#dropdown1:hover #dropdown-content1{display:block;}
+a{
+    color:white;
+    text-decoration: none;
+}
+.dd-text1{
+    display:block;
+    padding:20px;
+    font-size:25px;
+}
+.dd-text1:hover{
+    text-decoration: underline;
+}
+
+
+#dropbtn2{
+    position:absolute;
+    left:743px;
+    top:63px;
+}
+#dropdown-content2{
+    display:none;
+    background-color: rgb(61, 61, 61);
+    width:fit-content;
+    position:absolute;
+    top:90px;
+    left:669px;
+}
+#dropdown2:hover #dropdown-content2{display:block;}
+.dd-text2{
+    display:block;
+    padding:20px;
+    font-size:25px;
+}
+.dd-text2:hover{
+    text-decoration: underline;
+}
+
+
+#dropbtn3{
+    position:absolute;
+    left:1054px;
+    top:63px;
+}
+#dropdown-content3{
+    display:none;
+    background-color: rgb(61, 61, 61);
+    width:fit-content;
+    position:absolute;
+    top:90px;
+    left:975px;
+}
+#dropdown3:hover #dropdown-content3{display:block;}
+.dd-text3{
+    display:block;
+    padding:20px;
+    font-size:25px;
+}
+.dd-text3:hover{
+    text-decoration: underline;
+}
+/* koniec headera  */ 
+/* poczatek stopki*/
+#sponsorzy{
+    background-color: black;
+    margin-top:-55px;
+    display:flex;
+    justify-content: space-around;
+}
+.loga-sponsorow{
+    margin:20px 0;
+}
+#stopka{
+    background-color: rgb(39, 80, 128);
+    height:245px;
+}
+#sociale{
+    position:absolute;
+    left:25px;
+    width:250px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+#fb{
+    margin-left:-13px;
+}
+#sociale img{
+    width:50px;
+}
+.ikonka-social{
+    transition: transform 0.25s;
+}
+
+.ikonka-social:hover{
+    transform: scale(1.5);
+}
+#support{
+    position:relative;
+    top:150px;
+}
+#support address{
+    color:white;
+    font-size:20px;
+}
+/* koniec stopki*/
+#sponsorzy{
+    margin-top:20px;
+}
+
+
+
+
+
+.kafelek{
+    width: fit-content;
+    float:left;
+}
+
+.surname{
+    text-align: center;
+    color:white;
+    font-size:40px;
+}
+.surname:hover{
+    text-decoration: underline;
+}
+#jeden{
+    display:flex;
+    justify-content: space-around;   
+    margin-top: 150px;
+}
+#dwa{
+    display:flex;
+    justify-content: center;
+}
